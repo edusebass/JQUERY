@@ -3,3 +3,6 @@ $("button"); // $ = document.querySelector
 
 console.log($("button", "green")); //this you can see the properties
 
+$("h1"), addClass("bit-title"); // big-title was created in the styles.css
+
+$("button").text("<em>Hey</em>");
