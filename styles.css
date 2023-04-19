@@ -1,10 +1,7 @@
-body {
-    background-color: grey;
-}
 
 .bit-title { /* This was created because for it be utilized for jquery with method $ ref 3*/
-    font-size: large;
-    color: red;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10rem;
+    color: yellow;
+    font-family: cursive;
 }
 
