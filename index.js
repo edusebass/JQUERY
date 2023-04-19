@@ -3,14 +3,14 @@
 
 // console.log($("button", "green")); //this you can see the properties
 
-$("h1"), addClass("bit-title"); // big-title was created in the styles.css
+$("h1").addClass("bit-title"); // big-title was created in the styles.css
 
-$("button").text("<em>Hey</em>"); // chANGE THE TEXT OF THE BUTTON
+// $("button").text("<em>Hey</em>"); // chANGE THE TEXT OF THE BUTTON
 
 //Manipuling attributes with Jquery
 $("a").attr("href", "https://www.github.com")
 
 //Adding event listeners with Jquery
-$(button).click(function() {
-    $(h1).css("color", "purple");
+$("button").click(function() {
+    $("h1").css("color", "purple");
 });
